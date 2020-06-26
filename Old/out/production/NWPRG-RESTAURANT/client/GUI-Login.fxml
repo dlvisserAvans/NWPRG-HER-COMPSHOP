@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.AdminClient">
+         <top>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="65.0" prefWidth="237.0" text="Login" textAlignment="CENTER" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Label>
+         </top>
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="TextFieldUserName" text="UserName" />
+                  <TextField fx:id="TextFieldPassword" text="Password" />
+               </children>
+            </VBox>
+         </center>
+         <bottom>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="48.0" prefWidth="102.0" text="Submit" BorderPane.alignment="CENTER" />
+         </bottom>
+</BorderPane>
